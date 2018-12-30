@@ -1,6 +1,5 @@
 'use strict';
 const foregroundColorColor	= '#f3f4ef';
-const backgroundColor		= '#22242d';
 const red 					= '#ff1654';
 const green 				= '#06d6a0';
 const yellow 				= '#ffe66d';
@@ -10,6 +9,9 @@ const cyan 					= '#7bdff2';
 const white 				= '#f9f9f9';
 
 exports.decorateConfig = (config) => {
+	const themeSettings = config.themeSettings || {}
+	const backgroundColor = `rgba(34, 36, 45, ${themeSettings.opacity || 1})`;
+
 	return Object.assign({}, config, {
 		backgroundColor,
 		foregroundColorColor,

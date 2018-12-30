@@ -1,5 +1,5 @@
 {
-	"name": "hyper-altair",
+	"name": "hyper-altair-opacity",
 	"version": "1.2.0",
 	"description": "Altair is a elegant, customizable and has vivid colors just for Hyper.",
   "keywords": [
@@ -12,12 +12,12 @@
   "main": "index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/yxuko/hyper-altair.git"
+    "url" : "https://github.com/yn1046/hyper-altair.git"
   },
   "author": {
-    "name": "yxuko",
-    "email": "yxuko@outlook.com",
-    "url": "https://github.com/yxuko"
+    "name": "yn1046",
+    "email": "wantedblood@2ch.hk",
+    "url": "https://github.com/yn1046"
   },
   "license": "MIT"
 }
